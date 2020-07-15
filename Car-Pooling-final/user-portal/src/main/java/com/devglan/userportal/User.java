@@ -23,16 +23,16 @@ public class User {
         return f_name;
     }
 
-    public void setFullName(String fName) {
-        this.f_name = fName;
+    public void setFullName(String f_name) {
+        this.f_name = f_name;
     }
 
     public String getCompanyName() {
         return c_name;
     }
 
-    public void setCompanyName(String cName) {
-        this.c_name = cName;
+    public void setCompanyName(String c_name) {
+        this.c_name = c_name;
     }
 
     public String getEmail() {
