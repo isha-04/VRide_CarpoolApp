@@ -16,19 +16,19 @@ public class Cab {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int cid;
     @Column
-    private String company_name;
+    private String companyName;
     @Column
-    private String driver_name;
+    private String driverName;
     @Column
-    private String vacant_space;
+    private String vacantSpace;
     @Column
     private String source;
     @Column
     private String destination;
     @Column
-    private String driver_auth;
+    private String driverAuth;
     @Column
-    private String driver_mob;
+    private String driverMob;
     @Column
     private String compnyId;
     @Column
@@ -46,27 +46,27 @@ public class Cab {
     }
     
     public String getCompanyName() {
-        return company_name;
+        return companyName;
     }
 
-    public void setCompanyName(String company_name) {
-        this.company_name = company_name;
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
     }
     
     public String getDriverName() {
-        return driver_name;
+        return driverName;
     }
 
-    public void setDriverName(String driver_name) {
-        this.driver_name = driver_name;
+    public void setDriverName(String driverName) {
+        this.driverName = driverName;
     }
     
     public String getVacantSpace() {
-        return vacant_space;
+        return vacantSpace;
     }
 
-    public void setVacantSpace(String vacant_space) {
-        this.vacant_space = vacant_space;
+    public void setVacantSpace(String vacantSpace) {
+        this.vacantSpace = vacantSpace;
     }
     
     public String getSource() {
@@ -86,19 +86,19 @@ public class Cab {
     }
     
     public String getDriverAuth() {
-        return driver_auth;
+        return driverAuth;
     }
 
-    public void setDriverAuth(String driver_auth) {
-        this.driver_auth = driver_auth;
+    public void setDriverAuth(String driverAuth) {
+        this.driverAuth = driverAuth;
     }
     
     public String getDriverMob() {
-        return driver_mob;
+        return driverMob;
     }
 
-    public void setDriverMob(String driver_mob) {
-        this.driver_mob = driver_mob;
+    public void setDriverMob(String driverMob) {
+        this.driverMob = driverMob;
     }
     
     public String getComanyId() {

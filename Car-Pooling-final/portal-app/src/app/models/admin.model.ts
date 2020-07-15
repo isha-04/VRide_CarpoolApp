@@ -1,5 +1,5 @@
 export class Admin {
-  cid: string;
+  cid: int;
   company_name	: string;
   manager_name: string;
   memail: string;
